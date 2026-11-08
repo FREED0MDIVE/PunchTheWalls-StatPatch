@@ -11,7 +11,13 @@ A small mod that boosts the player's upgrade stats in **Punch The Walls** (Steam
 | Suction flow cap | x15 |
 | Punch area (blocks) | x2 (kept low on purpose - high area values cause physics lag) |
 
-Tested on the Steam build of Nov 2026. Single-player and hosting co-op (the stats are computed on the host).
+Tested on Steam game version **1.0.1** (works on both rule editions the game
+now ships with - the patch boosts both branches). Single-player and hosting
+co-op (the stats are computed on the host).
+
+v1.1 note: update 1.0.1 reworked the stat formulas and nerfed stock values
+(about 1/5 of the old edition). The multipliers above are unchanged, so patched
+numbers are lower in absolute terms than in v1.0 - that simply matches the new stock.
 
 ## Install
 
@@ -55,6 +61,9 @@ drive you can write to (standard case).
 **펀치 더 월즈(Punch The Walls)** 플레이어 능력치 modifications:
 펀치 피해 ×5, 펀치 속도 ×5, 흡입 범위 ×15, 쓰레기통 용량 ×15, 흡입 속도 상한 ×15,
 펀치 범위 ×2 (래그 방지를 위해 의도적으로 낮춤).
+**1.0.1 테스트 완료** — 게임이 새로 도입한 두 룰 에디션(V1/V2) 모두에 동일 배율 적용.
+1.0.1에서 스톡 수치가 이전 에디션 대비 약 1/5로 너프되어, 패치 후 절대 수치가
+v1.0 때보다 낮아 보입니다(배율은 동일).
 
 **설치**: 게임을 종료하고 `install.bat`을 더블클릭하면 끝.
 원본 DLL은 `Assembly-CSharp.dll.orig`로 자동 백업됩니다.
